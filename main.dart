@@ -49,9 +49,8 @@ String kembalikanBuku(int durasiPinjam) {
 String cekStatusBuku() {
   if (statusBukuA == StatusBuku.tersedia) {
     return "Info: Buku saat ini TERSEDIA di rak.";
-  } else {
+  } 
     return "Info: Buku saat ini sedang DIPINJAM.";
-  }
 }
 
 void main() {
